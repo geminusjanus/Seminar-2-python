@@ -8,4 +8,3 @@
 num = int(input('Enter number N '))
 list = [round((1+1/i)**i, 2) for i in range(1, num+1)]
 print(f'Последовательность: {list}\nСумма: {round(sum(list), 3)}')
-

@@ -22,6 +22,7 @@ print(f"Сумма цифр = {sumDigits(num)}")
 #         return True
 #     except ValueError:
 #         return False
-
+# if isfloat(num) == False:
+#    exit
 # print(isfloat('s12'))
 # print(isfloat('1.123'))
